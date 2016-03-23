@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C75152E71CA15EFF00A602C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C75152E61CA15EFF00A602C7 /* AppDelegate.m */; };
+		C75152EA1CA15EFF00A602C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C75152E91CA15EFF00A602C7 /* main.m */; };
+		C75152ED1CA15EFF00A602C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75152EC1CA15EFF00A602C7 /* ViewController.m */; };
+		C75152EF1CA15EFF00A602C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75152EE1CA15EFF00A602C7 /* Assets.xcassets */; };
+		C75152F21CA15EFF00A602C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75152F01CA15EFF00A602C7 /* Main.storyboard */; };
+		C75152FD1CA15EFF00A602C7 /* BonjourServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C75152FC1CA15EFF00A602C7 /* BonjourServerTests.m */; };
+		C75153081CA15EFF00A602C7 /* BonjourServerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C75153071CA15EFF00A602C7 /* BonjourServerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C75152F91CA15EFF00A602C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C75152DA1CA15EFF00A602C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75152E11CA15EFF00A602C7;
+			remoteInfo = BonjourServer;
+		};
+		C75153041CA15EFF00A602C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C75152DA1CA15EFF00A602C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75152E11CA15EFF00A602C7;
+			remoteInfo = BonjourServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C75152E21CA15EFF00A602C7 /* BonjourServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonjourServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75152E51CA15EFF00A602C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C75152E61CA15EFF00A602C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C75152E91CA15EFF00A602C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C75152EB1CA15EFF00A602C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C75152EC1CA15EFF00A602C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C75152EE1CA15EFF00A602C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C75152F11CA15EFF00A602C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C75152F31CA15EFF00A602C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75152F81CA15EFF00A602C7 /* BonjourServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonjourServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75152FC1CA15EFF00A602C7 /* BonjourServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonjourServerTests.m; sourceTree = "<group>"; };
+		C75152FE1CA15EFF00A602C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75153031CA15EFF00A602C7 /* BonjourServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonjourServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75153071CA15EFF00A602C7 /* BonjourServerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonjourServerUITests.m; sourceTree = "<group>"; };
+		C75153091CA15EFF00A602C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C75152DF1CA15EFF00A602C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75152F51CA15EFF00A602C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75153001CA15EFF00A602C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C75152D91CA15EFF00A602C7 = {
+			isa = PBXGroup;
+			children = (
+				C75152E41CA15EFF00A602C7 /* BonjourServer */,
+				C75152FB1CA15EFF00A602C7 /* BonjourServerTests */,
+				C75153061CA15EFF00A602C7 /* BonjourServerUITests */,
+				C75152E31CA15EFF00A602C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C75152E31CA15EFF00A602C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C75152E21CA15EFF00A602C7 /* BonjourServer.app */,
+				C75152F81CA15EFF00A602C7 /* BonjourServerTests.xctest */,
+				C75153031CA15EFF00A602C7 /* BonjourServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75152E41CA15EFF00A602C7 /* BonjourServer */ = {
+			isa = PBXGroup;
+			children = (
+				C75152E51CA15EFF00A602C7 /* AppDelegate.h */,
+				C75152E61CA15EFF00A602C7 /* AppDelegate.m */,
+				C75152EB1CA15EFF00A602C7 /* ViewController.h */,
+				C75152EC1CA15EFF00A602C7 /* ViewController.m */,
+				C75152EE1CA15EFF00A602C7 /* Assets.xcassets */,
+				C75152F01CA15EFF00A602C7 /* Main.storyboard */,
+				C75152F31CA15EFF00A602C7 /* Info.plist */,
+				C75152E81CA15EFF00A602C7 /* Supporting Files */,
+			);
+			path = BonjourServer;
+			sourceTree = "<group>";
+		};
+		C75152E81CA15EFF00A602C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C75152E91CA15EFF00A602C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C75152FB1CA15EFF00A602C7 /* BonjourServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C75152FC1CA15EFF00A602C7 /* BonjourServerTests.m */,
+				C75152FE1CA15EFF00A602C7 /* Info.plist */,
+			);
+			path = BonjourServerTests;
+			sourceTree = "<group>";
+		};
+		C75153061CA15EFF00A602C7 /* BonjourServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C75153071CA15EFF00A602C7 /* BonjourServerUITests.m */,
+				C75153091CA15EFF00A602C7 /* Info.plist */,
+			);
+			path = BonjourServerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C75152E11CA15EFF00A602C7 /* BonjourServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C751530C1CA15EFF00A602C7 /* Build configuration list for PBXNativeTarget "BonjourServer" */;
+			buildPhases = (
+				C75152DE1CA15EFF00A602C7 /* Sources */,
+				C75152DF1CA15EFF00A602C7 /* Frameworks */,
+				C75152E01CA15EFF00A602C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonjourServer;
+			productName = BonjourServer;
+			productReference = C75152E21CA15EFF00A602C7 /* BonjourServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C75152F71CA15EFF00A602C7 /* BonjourServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C751530F1CA15EFF00A602C7 /* Build configuration list for PBXNativeTarget "BonjourServerTests" */;
+			buildPhases = (
+				C75152F41CA15EFF00A602C7 /* Sources */,
+				C75152F51CA15EFF00A602C7 /* Frameworks */,
+				C75152F61CA15EFF00A602C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75152FA1CA15EFF00A602C7 /* PBXTargetDependency */,
+			);
+			name = BonjourServerTests;
+			productName = BonjourServerTests;
+			productReference = C75152F81CA15EFF00A602C7 /* BonjourServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C75153021CA15EFF00A602C7 /* BonjourServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75153121CA15EFF00A602C7 /* Build configuration list for PBXNativeTarget "BonjourServerUITests" */;
+			buildPhases = (
+				C75152FF1CA15EFF00A602C7 /* Sources */,
+				C75153001CA15EFF00A602C7 /* Frameworks */,
+				C75153011CA15EFF00A602C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75153051CA15EFF00A602C7 /* PBXTargetDependency */,
+			);
+			name = BonjourServerUITests;
+			productName = BonjourServerUITests;
+			productReference = C75153031CA15EFF00A602C7 /* BonjourServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C75152DA1CA15EFF00A602C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Lin Chih-An";
+				TargetAttributes = {
+					C75152E11CA15EFF00A602C7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C75152F71CA15EFF00A602C7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C75152E11CA15EFF00A602C7;
+					};
+					C75153021CA15EFF00A602C7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C75152E11CA15EFF00A602C7;
+					};
+				};
+			};
+			buildConfigurationList = C75152DD1CA15EFF00A602C7 /* Build configuration list for PBXProject "BonjourServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C75152D91CA15EFF00A602C7;
+			productRefGroup = C75152E31CA15EFF00A602C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C75152E11CA15EFF00A602C7 /* BonjourServer */,
+				C75152F71CA15EFF00A602C7 /* BonjourServerTests */,
+				C75153021CA15EFF00A602C7 /* BonjourServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C75152E01CA15EFF00A602C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75152EF1CA15EFF00A602C7 /* Assets.xcassets in Resources */,
+				C75152F21CA15EFF00A602C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75152F61CA15EFF00A602C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75153011CA15EFF00A602C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C75152DE1CA15EFF00A602C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75152ED1CA15EFF00A602C7 /* ViewController.m in Sources */,
+				C75152EA1CA15EFF00A602C7 /* main.m in Sources */,
+				C75152E71CA15EFF00A602C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75152F41CA15EFF00A602C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75152FD1CA15EFF00A602C7 /* BonjourServerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75152FF1CA15EFF00A602C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75153081CA15EFF00A602C7 /* BonjourServerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C75152FA1CA15EFF00A602C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75152E11CA15EFF00A602C7 /* BonjourServer */;
+			targetProxy = C75152F91CA15EFF00A602C7 /* PBXContainerItemProxy */;
+		};
+		C75153051CA15EFF00A602C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75152E11CA15EFF00A602C7 /* BonjourServer */;
+			targetProxy = C75153041CA15EFF00A602C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C75152F01CA15EFF00A602C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C75152F11CA15EFF00A602C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C751530A1CA15EFF00A602C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C751530B1CA15EFF00A602C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C751530D1CA15EFF00A602C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BonjourServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BonjourServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C751530E1CA15EFF00A602C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BonjourServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BonjourServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C75153101CA15EFF00A602C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BonjourServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BonjourServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonjourServer.app/Contents/MacOS/BonjourServer";
+			};
+			name = Debug;
+		};
+		C75153111CA15EFF00A602C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BonjourServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BonjourServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonjourServer.app/Contents/MacOS/BonjourServer";
+			};
+			name = Release;
+		};
+		C75153131CA15EFF00A602C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BonjourServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BonjourServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BonjourServer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C75153141CA15EFF00A602C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BonjourServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BonjourServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BonjourServer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C75152DD1CA15EFF00A602C7 /* Build configuration list for PBXProject "BonjourServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C751530A1CA15EFF00A602C7 /* Debug */,
+				C751530B1CA15EFF00A602C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C751530C1CA15EFF00A602C7 /* Build configuration list for PBXNativeTarget "BonjourServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C751530D1CA15EFF00A602C7 /* Debug */,
+				C751530E1CA15EFF00A602C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C751530F1CA15EFF00A602C7 /* Build configuration list for PBXNativeTarget "BonjourServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75153101CA15EFF00A602C7 /* Debug */,
+				C75153111CA15EFF00A602C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C75153121CA15EFF00A602C7 /* Build configuration list for PBXNativeTarget "BonjourServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75153131CA15EFF00A602C7 /* Debug */,
+				C75153141CA15EFF00A602C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C75152DA1CA15EFF00A602C7 /* Project object */;
+}
